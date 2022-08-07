@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew."
 if type xcode-select >&- && xpath=$( xcode-select -p ) && test -d "${xpath}" && test -x "${xpath}" ; then
@@ -6,3 +6,6 @@ if type xcode-select >&- && xpath=$( xcode-select -p ) && test -d "${xpath}" && 
 else
    xcode-select --install
 fi
+
+echo "Install Homebrew"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
