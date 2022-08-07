@@ -1,4 +1,9 @@
 #!/bin/bash
 
 echo "Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew."
-xcode-select --install
+if type xcode-select >&- && xpath=$( xcode-select -p ) && test -d "${xpath}" && test -x "${xpath}" ; then
+   #... is correctly installed
+   echo "Apple's Command Line Tools already install"
+else
+   xcode-select --install
+fi
