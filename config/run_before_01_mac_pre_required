@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew."
 if type xcode-select >&- && xpath=$( xcode-select -p ) && test -d "${xpath}" && test -x "${xpath}" ; then
