@@ -1,0 +1,102 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+# Automatic configure script builder
+brew "autoconf"
+# Tool for generating GNU Standards-compliant Makefiles
+brew "automake"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.9"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Decentralized dependency manager for Cocoa
+brew "carthage"
+# Dependency manager for Cocoa projects
+brew "cocoapods"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Get a file from an HTTP, HTTPS or FTP server
+brew "curl"
+# Load/unload environment variables based on $PWD
+brew "direnv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.10"
+# Tool that bootstraps your dotfiles
+brew "dotbot"
+# CLI tool for quick access to files and directories
+brew "fasd"
+# Easiest way to build and release mobile apps
+brew "fastlane"
+# GitHub command-line tool
+brew "gh"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Open-source build automation tool based on the Groovy and Kotlin DSL
+brew "gradle"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Node version management
+brew "n"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Development kit for the Java programming language
+brew "openjdk@8"
+# Safe, concurrent, practical language
+brew "rust"
+# Login and retrieve AWS temporary credentials using a SAML IDP
+brew "saml2aws"
+# Display and control your Android device
+brew "scrcpy"
+# Code-search similar to ack
+brew "the_silver_searcher"
+# Terminal multiplexer
+brew "tmux"
+# Command-line client for Travis CI
+brew "travis"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Extraction utility for .zip compressed archives
+brew "unzip"
+# Watch files and take action when they change
+brew "watchman"
+# General-purpose lossless data-compression library
+brew "zlib"
+# JDK from the Java User Group (JUG)
+cask "adoptopenjdk"
+cask "android-sdk"
+# Application uninstaller
+cask "appcleaner"
+# Voice and text chat software
+cask "discord"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Desktop debugging platform for mobile developers
+cask "flipper"
+cask "font-hack-nerd-font"
+# Web browser
+cask "google-chrome"
+# Java IDE by JetBrains
+cask "intellij-idea"
+# Terminal emulator as alternative to Apple's Terminal app
+cask "iterm2"
+# Password manager
+cask "lastpass"
+# Provides updates to various Microsoft products
+cask "microsoft-auto-update"
+# Online collaborative whiteboard platform
+cask "miro"
+# App to write, plan, collaborate, and get organized
+cask "notion"
+# Open-source software for live streaming and screen recording
+cask "obs"
+# Collaboration platform for API development
+cask "postman"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Graphical client for Git version control
+cask "sourcetree"
+# Open-source code editor
+cask "visual-studio-code"
