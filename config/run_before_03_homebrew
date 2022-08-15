@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "Install Homebrew"
-/bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 echo "Install software listed in the Brewfile"
 brew bundle --file Brewfile
