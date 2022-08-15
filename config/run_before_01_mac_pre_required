@@ -2,16 +2,8 @@
 
 echo "Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew."
 if type xcode-select >&- && xpath=$( xcode-select -p ) && test -d "${xpath}" && test -x "${xpath}" ; then
-   echo "Apple's Command Line Tools already install"
+   echo "Apple's Command Line Tools already install."
 else
    xcode-select --install
+   echo "Apple's Command Line Tools install success."
 fi
-
-echo "Install Oh My Zsh"
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-echo "Install Homebrew"
-/bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-echo "Install software listed in the Brewfile"
-brew bundle --file Brewfile
