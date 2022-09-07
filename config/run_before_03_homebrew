@@ -3,5 +3,6 @@
 echo "Install Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-echo "Install software listed in the Brewfile"
+echo "Install software listed in the Brewfile" 
+# TODO: fix Brewfile relative path : error : no Brewfile found.
 brew bundle --file Brewfile
