@@ -84,8 +84,6 @@ cask "intellij-idea"
 cask "iterm2"
 # Password manager
 cask "lastpass"
-# Provides updates to various Microsoft products
-cask "microsoft-auto-update"
 # Online collaborative whiteboard platform
 cask "miro"
 # App to write, plan, collaborate, and get organized
